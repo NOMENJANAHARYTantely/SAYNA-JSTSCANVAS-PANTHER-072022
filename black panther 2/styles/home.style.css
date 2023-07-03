@@ -1,0 +1,327 @@
+@import url(global.style.css);
+
+main section#detail {
+    display: flex;
+    justify-content: center;
+    padding-left: 6vw;
+}
+
+main section#detail img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+main section#detail #description {
+    padding-left: 3vw;
+    padding-top: 10vw;
+    width: 35vw;
+}
+
+main section#detail #description h1 {
+    font-size: 3.5vw;
+    white-space: nowrap;
+    color: var(--violet-400);
+}
+
+main section#detail #description h2 {
+    font-size: 1.5vw;
+    color: var(--violet-400);
+    margin-bottom: 2rem;
+}
+
+main section#detail #description p {
+    font-size: 0.75vw;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+main section#detail div#border-box {
+    width: 2rem;
+    height: 60vmin;
+    position: fixed;
+    left: 2rem;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section#detail div#border-box div.line {
+    width: 4px;
+    height: 100%;
+    background-color: var(--violet-400);
+}
+
+main section#detail div#border-box div#left {
+    height: 100%;
+}
+
+main section#detail div#border-box div#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main section#detail div#border-box div#social-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    right: -14px;
+    bottom: 0;
+    z-index: 20;
+    padding: 1rem 0;
+}
+
+main section#detail div#border-box div#social-logos a:hover{
+    box-shadow: var(--rose-400) 0px 0px 12px 1px;
+}
+
+main section#carousel {
+    position: relative;
+    display: flex;
+    background-color: var(--dark-blue-800);
+    width: max-content;
+    padding-left: 4vw;
+    margin-left: auto;
+}
+
+main section#carousel div.next-icon-box {
+    position: absolute;
+    padding: 1vw;
+    background-color: var(--dark-blue-800);
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 95%;
+    right: 0;
+    top: 45%;
+}
+
+main section#carousel div.next-icon-box span#next-icon {
+    color: var(--white);
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+main section#carousel #box-info {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+
+main section#carousel img {
+    height: 16vw;
+}
+
+main section#carousel img.killmonger {
+    scale: 125%;
+    padding-right: 1rem;
+}
+
+main section#carousel #box-info #info {
+    padding: 1.5vw;
+    width: max-content;
+}
+
+main section#carousel #box-info #info h2 {
+    font-size: 1.5vw;
+    margin-bottom: 0.25rem;
+    color: var(--rose-800);
+}
+
+main section#carousel #box-info #info p {
+    font-size: 0.75vw;
+    text-align: justify;
+    height: fit-content;
+    width: 20vw;
+}
+
+main section#description-profile {
+    margin-top: 12vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vw;
+    padding-bottom: 3vw;
+}
+
+main section#description-profile div#text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+main section#description-profile div#text h2.title {
+    color: var(--violet-400);
+    font-size: 1.25vw;
+}
+
+main section#description-profile div#text p {
+    font-size: 0.8vw;
+    text-align: justify;
+    width: 80%;
+    opacity: 80%;
+}
+
+main section#description-profile div#info-perso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25vw;
+}
+
+main section#description-profile div#info-perso div#avatar-panther {
+    scale: 125%;
+}
+
+main section#description-profile div#info-perso div#avatar-panther img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+main section#description-profile div#info-perso div#box-profile {
+    position: relative;
+}
+
+main section#description-profile div#info-perso div#box-profile img#tchalla-pdp {
+    height: 26vw;
+    position: inherit;
+    z-index: 10;
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 18px;
+    padding: 3vw 2vw;
+    padding-top: 12vw;
+    position: absolute;
+    left: -18%;
+    top: 60%;
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile * {
+    color: black;
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile h5 {
+    font-size: 1.75vw;
+    font-weight: bold;
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile div#buttons {
+    display: flex;
+    margin: 1vw 0;
+    gap: 0.5vw;
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile div#buttons p {
+    padding: 0.75vw 1.25vw;
+    background-color: var(--violet-800);
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 0.75vw;
+    color: var(--white);
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile p.reponse {
+    font-weight: bold;
+    text-transform: capitalize;
+    line-clamp: 2;
+    font-size: 1vw;
+}
+
+main section#description-profile div#info-perso div#box-profile div#box-detail-profile p.reponse span {
+    font-size: 0.75vw;
+    font-weight: normal;
+}
+
+main section#contact {
+    background-image: url(../assets/home/Pantherhome7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: max(2rem, 5vw);
+}
+
+main section#contact div#box-contact {
+    display: flex;
+    flex-direction: column;
+    gap: min(1rem, 1vw);
+    text-align: center;
+    background: linear-gradient(to bottom, var(--white), #ffffff25);
+    color: black;
+    padding: min(3rem, 4vw) min(50%, 10vw);
+    width: 60%;
+    min-width: 20rem;
+    border-radius: min(10rem, 10vw);
+}
+
+main section#contact div#box-contact h5 {
+    font-size: clamp(0.75rem, 1vw + 0.1rem, 2rem);
+    white-space: nowrap;
+}
+
+main section#contact div#box-contact h5.title {
+    font-size: clamp(1rem, 2vw + 0.2rem, 3rem);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+main section#contact div#box-contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: min(1rem, 1vw);
+}
+
+main section#contact div#box-contact form input.custom-input,
+main section#contact div#box-contact form textarea {
+    width: 100%;
+    padding: min(1rem, 2vw) min(2rem, 2vw);
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+main section#contact div#box-contact form textarea {
+    resize: none;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    height: max(6rem, 12vw);
+    overflow: hidden;
+}
+
+main section#contact div#box-contact form input.custom-input:focus,
+main section#contact div#box-contact form textarea:focus {
+    outline: none;
+}
+
+main section#contact div#box-contact form button {
+    padding: 1rem 3rem;
+    width: min-content;
+    background-color: var(--rose-400);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: #00000072 0px 0px 12px 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+main section#contact div#box-contact form button:hover {
+    box-shadow: var(--rose-400) 0px 0px 12px 1px;
+}
+
+main section#contact div#box-contact form button:focus {
+    outline: none;
+}

@@ -1,0 +1,86 @@
+@import url(global.style.css);
+
+
+main section#profile p {
+    font-size: 1rem;
+}
+
+main section#profile h2 {
+    font-size: 3vw;
+    color: var(--violet-400);
+
+}
+
+main section#profile {
+    background-image: url(../assets/wakanda/Pantherwakanda1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: min(10rem, 10vw);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main section#profile div#title {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+main section#profile div#sous-title p {
+    font-size: min(1rem, 1vw);
+    padding-right: max(30rem,30vw);
+}
+
+main section#text {
+    background-image: url(../assets/wakanda/Pantherwakanda2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: min(2rem, 3vw);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main section#text div#text-left div#img  {
+    font-size: 1rem;
+    background-color: var(--dark-blue-400);
+    border: 0.2rem solid var(--dark-blue-400);
+    padding: max(2rem,2vw);
+    display: flex;
+    flex-direction: column;
+}
+
+main section#text div#text-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 45%;
+}
+
+main section#text div#text-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 45%;
+}
+
+main section#text h2 {
+    color: var(--violet-400);
+    font-size: 1rem;
+}
+
+main section#text p {
+    font-size: min(1rem, 0.75vw);
+    text-align: justify;
+}
+
+main section#text div#all-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}

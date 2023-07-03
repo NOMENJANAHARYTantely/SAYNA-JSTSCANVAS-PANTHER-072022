@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #FFFFFF;
+    --rose-400: #F2CEF2;
+    --rose-800: #DF99F2;
+    --violet-400: #9E91B7;
+    --violet-800: #3D2DA6;
+    --dark-blue-400: #07338C;
+    --dark-blue-800: #021740;
+}
+
+@font-face {
+    font-family: "Wakanda forever";
+    src: url(../assets/fonts/WakandaForever-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO';
+    src: url(../assets/fonts/BEYNO.otf);
+}
+
+@font-face {
+    font-family: "Panthera";
+    src: url(../assets/fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: "Cantarell";
+    src: url(../assets/fonts/Cantarell-Regular.ttf);
+}
+
+body {
+    height: 100%;
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Panthera", sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "BEYNO", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h2.engine {
+    font-family: "Wakanda forever", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+}
+
+
+
+p, h5, h6 {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+}
+
+span.voir-plus {
+    font-size: 1vw;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 10px;    
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+main {
+    background-image:  url(../assets/all_pages/arrière_plan.png);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 6vw;
+}
+
+header img {
+    height: 1.75vw;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+header nav h2 {
+    font-size: 1.25vw;
+}
+
+header nav a.selected, header nav a:hover {
+    color: var(--violet-400);
+    opacity: 75%;
+    text-decoration: underline;
+}
+
+footer {
+    background: url("../assets/all_pages/back_footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: min(8rem, 8vw) max(1rem, 12vw);
+    padding-bottom: min(6rem, 6vw);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: min(8rem, 8vw);
+}
+
+footer div#box-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: max(5rem, 4vw);
+}
+
+footer div#box-info div#navigation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer div#box-info div#navigation div#page div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div#box-info div#navigation > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: min(12rem, 8vw);
+}
+
+footer div#box-info div#navigation h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer div#box-info div#navigation div#page > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+footer div#box-info div#navigation a {
+    font-family: "Cantarell", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+footer div#box-info div#navigation div#social-box div#social-logos {
+    display: flex;
+    justify-content: space-between;
+} 
+
+footer div#box-info div#navigation div#social-box img {
+    height: 2rem;
+}
+
+footer div#box-info p#copyright {
+    font-size: 0.75rem;
+}
+
+footer  div#marvel {
+    scale: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 600ms ease-in-out;
+}
+
+footer  div#marvel img#bg {
+    position: absolute;
+}
+
+footer  div#marvel a {
+    width: min-content;
+}
+
+footer  div#marvel img {
+    scale: 0.3;
+}
+
+footer  div#marvel:hover{
+    scale: 2.6;
+}
